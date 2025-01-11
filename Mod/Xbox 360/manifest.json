@@ -1,0 +1,149 @@
+{
+    "name": "GX 360",
+    "description": "Some Xbox 360 nostalgia.",
+    "developer":
+    {
+        "name": "Apolo Garcia"
+    },
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/Tracks.wav"
+            ],
+            "browser_sounds":
+            {
+                "HOVER":
+                [
+                    "sound/hover.wav"
+                ],
+                "HOVER_UP":
+                [
+                    "sound/hover.wav"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sound/level_upgrade.wav"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sound/limiter_off.wav"
+                ],
+                "LIMITER_ON":
+                [
+                    "sound/limiter_on.wav"
+                ],
+                "SWITCH_TOGGLE":
+                [
+                    "sound/switch.wav"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sound/close_tab.wav"
+                ],
+                "TAB_INSERT":
+                [
+                    "sound/new_tab_1.wav",
+                    "sound/new_tab_2.wav"
+                ],
+                "TAB_SLASH":
+                [
+                    "sound/tab_slash.wav"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/backspace.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/enter.wav"
+                ],
+                "TYPING_LETTER":
+                [
+                    "keyboard/letter_1.wav",
+                    "keyboard/letter_2.wav",
+                    "keyboard/letter_3.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/space.wav"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "webmodding/main.theme.css",
+                        "webmodding/changecolors.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ]
+                }
+            ],
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 81,
+                        "s": 51,
+                        "l": 51
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 144,
+                        "s": 12,
+                        "l": 8
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 81,
+                        "s": 51,
+                        "l": 51
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 65
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                    "image": "wallpaper/dark.jpg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/light.jpg",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B0E0E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "2.0"
+}
